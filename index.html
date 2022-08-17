@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Management system</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav-wrapper">
+        <nav class="navbar">
+          <a href="index.html" class="logo">Library Management System</a>
+          <ul id="nav-items">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="introduction">
+          <h2 class="intro-heading">Welcome to our E-Library!</h2>
+          <p class="intro-text">
+            This is a library management system for our students. We have a wide
+            variety of books to choose from.
+          </p>
+        </div>
+
+        <div class="table-wrapper">
+            <table id="book-list">
+                <thead>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Subject</th>
+                <th>Published date</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The Hobbit</td>
+                    <td>J.R.R. Tolkien</td>
+                    <td>Fantasy</td>
+                    <td>1937</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="table-footer">
+            <button class="button prev-button">Prev</button>
+            <button class="button next-button">Next</button>
+        </div>
+    </div>
+    </main>
+  </body>
+</html>
