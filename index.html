@@ -30,14 +30,55 @@
             variety of books to choose from.
           </p>
         </div>
-
+        <div class="search-div">
+            <div class="input-elements">
+                <input type="radio" name="attribute" id="title" value="title">
+                <label for="title">Title</label>
+                <input type="radio" name="attribute" id="author" value="author">
+                <label for="author">Author</label>
+                <input type="radio" name="attribute" id="subject" value="subject">
+                <label for="subject">Subject</label>
+                <span class="search-input">
+                    <input type="text" name="searchquery" class="search-query-input" placeholder="search">
+                </span>
+                <span class="query-result" style="font-size:16px">Number of results: <span class="result-number"></span></span>
+            </div>
+        </div>
         <div class="table-wrapper">
             <table id="book-list">
                 <thead>
-                <th>Title</th>
-                <th>Author</th>
-                <th>Subject</th>
-                <th>Published date</th>
+                    <th>
+                        <div class="table-heading">
+                            <div>Title</div>
+                            <div class="arrow-icons-wrapper">
+                                <div class="arrow-up" onclick="sortByTitle(true)"></div><div class="arrow-down" onclick="sortByTitle(false)"></div>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="table-heading">
+                            <div>Author</div>
+                            <div class="arrow-icons-wrapper">
+                                <div class="arrow-up" onclick="sortByAuthor(true)"></div><div class="arrow-down" onclick="sortByAuthor(false)"></div>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="table-heading">
+                            <div>Subject</div>
+                            <div class="arrow-icons-wrapper">
+                                <div class="arrow-up" onclick="sortBySubject(true)"></div><div class="arrow-down" onclick="sortBySubject(false)"></div>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="table-heading">
+                            <div>Published date</div>
+                            <div class="arrow-icons-wrapper">
+                                <div class="arrow-up" onclick="sortByTitle(true)"></div><div class="arrow-down" onclick="sortByTitle(false)"></div>
+                            </div>
+                        </div>
+                    </th>
             </thead>
             <tbody>
                 <tr>

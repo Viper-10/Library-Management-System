@@ -8,56 +8,56 @@
   },
   {
     "title": "Science III",
-    "author": "Priyadharshan",
+    "author": "Snake",
     "subject": "Science",
     "grade": 3,
     "published-date": "2020-01-01"
   },
   {
     "title": "English III",
-    "author": "Priyadharshan",
+    "author": "Snake",
     "subject": "English",
     "grade": 3,
     "published-date": "2020-01-01"
   },
   {
     "title": "Maths IV",
-    "author": "Priyadharshan",
+    "author": "Kdpink",
     "subject": "Maths",
     "grade": 4,
     "published-date": "2020-02-01"
   },
   {
     "title": "Science IV",
-    "author": "Priyadharshan",
+    "author": "Viper",
     "subject": "Science",
     "grade": 4,
     "published-date": "2020-02-01"
   },
   {
     "title": "English IV",
-    "author": "Priyadharshan",
+    "author": "Viper",
     "subject": "English",
     "grade": 4,
     "published-date": "2020-02-01"
   },
   {
     "title": "Maths V",
-    "author": "Priyadharshan",
+    "author": "Snake",
     "subject": "Maths",
     "grade": 5,
     "published-date": "2020-03-01"
   },
   {
     "title": "Science V",
-    "author": "Priyadharshan",
+    "author": "Snake",
     "subject": "Science",
     "grade": 5,
     "published-date": "2020-03-01"
   },
   {
     "title": "English V",
-    "author": "Priyadharshan",
+    "author": "Viper",
     "subject": "English",
     "grade": 5,
     "published-date": "2020-03-01"
@@ -78,21 +78,21 @@
   },
   {
     "title": "English VI",
-    "author": "Priyadharshan",
+    "author": "KdPink",
     "subject": "English",
     "grade": 6,
     "published-date": "2020-04-01"
   },
   {
     "title": "Maths VII",
-    "author": "Priyadharshan",
+    "author": "KdPink",
     "subject": "Maths",
     "grade": 7,
     "published-date": "2020-05-01"
   },
   {
     "title": "Science VII",
-    "author": "Priyadharshan",
+    "author": "KdPink",
     "subject": "Science",
     "grade": 7,
     "published-date": "2020-05-01"
@@ -120,21 +120,21 @@
   },
   {
     "title": "English VIII",
-    "author": "Priyadharshan",
+    "author": "Snake",
     "subject": "English",
     "grade": 8,
     "published-date": "2020-06-01"
   },
   {
     "title": "Maths IX",
-    "author": "Priyadharshan",
+    "author": "Snake",
     "subject": "Maths",
     "grade": 9,
     "published-date": "2020-07-01"
   },
   {
     "title": "Science IX",
-    "author": "Priyadharshan",
+    "author": "Snake",
     "subject": "Science",
     "grade": 9,
     "published-date": "2020-07-01"
@@ -155,14 +155,14 @@
   },
   {
     "title": "Science X",
-    "author": "Priyadharshan",
+    "author": "KdPink",
     "subject": "Science",
     "grade": 10,
     "published-date": "2020-08-01"
   },
   {
     "title": "English X",
-    "author": "Priyadharshan",
+    "author": "KdPink",
     "subject": "English",
     "grade": 10,
     "published-date": "2020-08-01"
